@@ -24,7 +24,7 @@ variable "availability_zones" {
 }
 
 variable "vpc_id" {
-  default = "vpc-00bdc5bb689dab54b"
+  type = string
 }
 
 # variable "subnets_public" {
